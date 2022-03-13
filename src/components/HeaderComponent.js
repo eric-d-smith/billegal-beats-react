@@ -7,56 +7,42 @@ function Header() {
 
     return (
         <React.Fragment>
-            <h1>Header Component</h1>
-            <p>Is it working?</p>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-black sticky-top">
+                <a class="navbar-brand d-sm-none py-2" href="#"><img src="../img/logo.svg" width="40" heigh="40" /></a>
+                <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#billegalNavbar">
+                    <div class="hamburger" id="hamburger-2">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse" id="billegalNavbar">
+                    <ul class="navbar-nav mx-auto text-white d-flex align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="releases.html">RELEASES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tour.html">TOUR</a>
+                        </li>
+                        <a class="px-3 py-2 d-none d-sm-block" href="#"><img src="img/logo.svg" alt="Billegal Beats" width="50"
+                            height="50" /></a>
+                        <li class="nav-item">
+                            <a class="nav-link d-none d-xl-block" href="#demosXL">DEMOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-none d-block d-xl-none" href="#demos">DEMOS</a>
+                        </li>
+                        <li class="nav-item mr-4 d-none d-sm-block">
+                            <a class="nav-link" href="shop.html">SHOP</a>
+                        </li>
+                        <li class="nav-item d-block d-sm-none">
+                            <a class="nav-link" href="shop.html">SHOP</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </React.Fragment >
     );
 }
 
 export default Header;
-
-
-{/* <Navbar className="navbar navbar-expand-sm navbar-dark bg-black sticky-top">
-<div className="container">
-    <NavbarBrand className="navbar-brand d-sm-none py-2" href="#">
-        <img src="./img/logo.svg" width="40" heigh="40" />
-    </NavbarBrand>
-
-
-    <NavbarToggler onClick={this.toggleNav} />
-    <Collapse isOpen={this.state.isNavOpen} navbar>
-        <div class="hamburger" id="hamburger-2">
-            <span class="line"></span>
-            <span class="line"></span>
-            <span class="line"></span>
-        </div>
-    </Collapse>
-
-
-    <Nav navbar>
-        <NavItem>
-            <NavLink className="nav-link" to="/home">
-                <i className="fa fa-home fa-lg" /> Home
-            </NavLink>
-        </NavItem>
-        <NavItem>
-            <NavLink className="nav-link" to="/directory">
-                <i className="fa fa-list fa-lg" /> Directory
-            </NavLink>
-        </NavItem>
-        <NavItem>
-            <NavLink className="nav-link" to="/aboutus">
-                <i className="fa fa-info fa-lg" /> About
-            </NavLink>
-        </NavItem>
-        <NavItem>
-            <NavLink className="nav-link" to="/contactus">
-                <i className="fa fa-address-card fa-lg" /> Contact Us
-            </NavLink>
-        </NavItem>
-    </Nav>
-
-
-
-</div>
-</Navbar> */}

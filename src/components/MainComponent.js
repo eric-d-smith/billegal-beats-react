@@ -1,7 +1,7 @@
 import React from 'react';
-// import Home from './HomeComponent';
+import Home from './HomeComponent';
 import Header from './HeaderComponent';
-// import Footer from './FooterComponent';
+import Footer from './FooterComponent';
 // import Releases from './ReleasesComponent';
 // import Tour from './TourComponent';
 // import Demos from './DemosComponent';
@@ -14,8 +14,8 @@ function Main() {
     return (
         <React.Fragment>
             <Header />
-            <h1>Main Component</h1>
-            <p>Is it working?</p>
+            <Home />
+            <Footer />
         </React.Fragment>
     );
 };

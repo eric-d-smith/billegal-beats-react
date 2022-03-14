@@ -1,6 +1,8 @@
 import React from 'react';
 // import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem } from 'reactstrap';
 // import { NavLink } from 'react-router-dom';
+// import logo from '../assets/images/logo.svg';
+import { default as logo } from '../assets/images/logo.svg';
 import '../App.css';
 
 function Header() {
@@ -8,7 +10,9 @@ function Header() {
     return (
         <React.Fragment>
             <nav className="navbar navbar-expand-sm navbar-dark bg-black sticky-top">
-                <a className="navbar-brand d-sm-none py-2" href="#"><img src="../assets/images/logo.svg" width="40" heigh="40" /></a>
+                <a className="navbar-brand d-sm-none py-2 px-3" href="#">
+                    <img src={logo} width="40" heigh="40" />
+                </a>
                 <button className="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#billegalNavbar">
                     <div className="hamburger" id="hamburger-2">
                         <span className="line"></span>
@@ -24,13 +28,14 @@ function Header() {
                         <li className="nav-item">
                             <a className="nav-link" href="tour.html">TOUR</a>
                         </li>
-                        <a className="px-3 py-2 d-none d-sm-block" href="#"><img src="img/logo.svg" alt="Billegal Beats" width="50"
-                            height="50" /></a>
+                        <a href="#" className="px-3 py-2 d-none d-sm-block">
+                            <img src={logo} width="50" height="50" alt="Billegal Beats" />
+                        </a>
                         <li className="nav-item">
                             <a className="nav-link d-none d-xl-block" href="#demosXL">DEMOS</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link d-none d-block d-xl-none" href="#demos">DEMOS</a>
+                            <a className="nav-link d-block d-xl-none" href="#demos">DEMOS</a>
                         </li>
                         <li className="nav-item mr-4 d-none d-sm-block">
                             <a className="nav-link" href="shop.html">SHOP</a>

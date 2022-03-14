@@ -12,18 +12,28 @@ for (let i = 0; i < numClass; i++) {
 // END navbar animation
 
 // BEGIN hamburger animation
-$(document).ready(function(){
-    $(".hamburger").click(function(){
-      $(this).toggleClass("is-active");
-    });
+$(document).on("ready", function(){
+  $(".hamburger").on("click", function(){
+    $(this).toggleClass("is-active");
   });
+});
+// $(document).ready(function(){
+//     $(".hamburger").click(function(){
+//       $(this).toggleClass("is-active");
+//     });
+//   });
 // END hamburger animation
 
+
 // BEGIN bouncing arrow bottom of full screen. Fades when scrolling.
-$(window).scroll(function(){
+$(window).on("scroll", function(){
   $(".arrow").css("opacity", 1 - $(window).scrollTop() / 250); 
 //250 is fade pixels
 });
+// $(window).scroll(function(){
+//   $(".arrow").css("opacity", 1 - $(window).scrollTop() / 250); 
+// //250 is fade pixels
+// });
 // END bouncing arrow bottom of full screen. Fades when scrolling.
 
 // BEGIN testing for overflow issues. * in CSS adds red border.

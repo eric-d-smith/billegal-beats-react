@@ -4,7 +4,9 @@ import './index.css';
 import './css/styles.css';
 // import "./js/scripts.js";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../node_modules/font-awesome/css/font-awesome.min.css'; 
+import '../node_modules/font-awesome/css/font-awesome.min.css';
+import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
+import '../node_modules/bootstrap-social/bootstrap-social.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

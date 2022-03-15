@@ -1,20 +1,32 @@
 import React from 'react';
-import Home from './HomeComponent';
 import Header from './HeaderComponent';
+import Hero from './HeroComponent';
 import Footer from './FooterComponent';
+import OurMission from './OurMissionComponent';
+import HomeReleases from './HomeReleasesComponent';
+import DemosEmail from './HomeDemosEmailComponent';
+
 // import Releases from './ReleasesComponent';
 // import Tour from './TourComponent';
 // import Demos from './DemosComponent';
 // import Shop from './ShopComponent';
+
 // import { Switch, Route, Redirect } from 'react-router-dom';
 // import { RELEASES } from '../shared/releases';
 // import { TOUR } from '../shared/tour';
+
+// import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem } from 'reactstrap';
+// import { NavLink } from 'react-router-dom';
+// import logo from '../assets/images/logo.svg';
 
 function Main() {
     return (
         <React.Fragment>
             <Header />
-            <Home />
+            <Hero />
+            <OurMission />
+            <HomeReleases />
+            <DemosEmail />
             <Footer />
         </React.Fragment>
     );
@@ -38,6 +50,3 @@ export default Main;
             //     <Redirect to='/home' />
             // </Switch>
             // <Footer />
-
-
-

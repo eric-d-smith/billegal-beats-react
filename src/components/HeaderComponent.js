@@ -1,9 +1,5 @@
 import React from 'react';
-// import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem } from 'reactstrap';
-// import { NavLink } from 'react-router-dom';
-// import logo from '../assets/images/logo.svg';
 import { default as logo } from '../assets/images/logo.svg';
-import '../App.css';
 
 function Header() {
 
@@ -23,7 +19,7 @@ function Header() {
                 <div className="collapse navbar-collapse" id="billegalNavbar">
                     <ul className="navbar-nav mx-auto text-white d-flex align-items-center">
                         <li className="nav-item">
-                            <a className="nav-link" href="releases.html">RELEASES</a>
+                            <a className="nav-link" href="#releases">RELEASES</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="tour.html">TOUR</a>
@@ -37,7 +33,7 @@ function Header() {
                         <li className="nav-item">
                             <a className="nav-link d-block d-xl-none" href="#demos">DEMOS</a>
                         </li>
-                        <li className="nav-item mr-4 d-none d-sm-block">
+                        <li className="nav-item d-none d-sm-block pad-right">
                             <a className="nav-link" href="shop.html">SHOP</a>
                         </li>
                         <li className="nav-item d-block d-sm-none">

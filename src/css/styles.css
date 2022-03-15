@@ -135,6 +135,7 @@ a.EP-hover:hover {
   font-family: GlacialIndifferenceRegular;
   font-size: 1.25em;
   line-height: 1.25;
+  text-decoration: none;
 }
 
 .footer-body2 {
@@ -300,6 +301,10 @@ a.EP-hover:hover {
   text-decoration: none !important;
 }
 
+.pad-right {
+  padding-right: 1.5em;
+}
+
 .underline {
   padding-bottom: 4px;
   border-bottom: 1px solid white;
@@ -394,6 +399,17 @@ li > a:hover:after {
 */
 .arrow {
   position: absolute;
+  bottom: 5%;
+  left: 50%;
+  margin-left: -20px;
+  width: 40px;
+  height: 60px;
+  /*change with size of arrow to make sit on bottom */
+  /*   background-image: url(); */
+  /*   background-size: contain; */
+}
+.arrow-lg {
+  position: absolute;
   bottom: 12%;
   left: 50%;
   margin-left: -20px;
@@ -404,9 +420,9 @@ li > a:hover:after {
   /*   background-size: contain; */
 }
 
-.arrow-xs {
+.arrow-xl {
   position: absolute;
-  bottom: 5%;
+  bottom: 6%;
   left: 50%;
   margin-left: -20px;
   width: 40px;

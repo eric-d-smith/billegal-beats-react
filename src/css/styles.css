@@ -91,8 +91,8 @@ a.EP-hover:hover {
 
 .bg-signup {
   background-color: #818285;
-  margin-left: 0.9em;
-  margin-right: 0.9em;
+  margin-left: 0.75em;
+  margin-right: 0.75em;
 }
 
 .btn-releases {
@@ -115,7 +115,6 @@ a.EP-hover:hover {
   font-family: GlacialIndifferenceBold;
   font-size: 1em;
   letter-spacing: 0.1em;
-  margin: 4em 0 4em 0;
   padding-top: 6em;
   padding-bottom: 6em;
 }
@@ -142,6 +141,13 @@ a.EP-hover:hover {
   font-family: GlacialIndifferenceRegular;
   font-size: 1.1em;
   letter-spacing: .05em;
+}
+
+.footer-link-body {
+  font-family: GlacialIndifferenceRegular;
+  font-size: 1.25em;
+  line-height: 1.75;
+  text-decoration: none;
 }
 
 .hamburger .line {
@@ -299,6 +305,10 @@ a.EP-hover:hover {
   display: block;
   color: #fff !important;
   text-decoration: none !important;
+}
+
+.marg-x {
+  margin: 0 0.1em;
 }
 
 .pad-right {

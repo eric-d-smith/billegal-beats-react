@@ -15,16 +15,16 @@ function Footer() {
                                     LINKS
                                 </span><br />
                             </div>
-                            <a className="footer-body text-white pt-5" href="releases.html">
+                            <a className="footer-link-body text-white mt-5" href="releases.html">
                                 releases<br />
                             </a>
-                            <a className="footer-body text-white" href="tour.html">
+                            <a className="footer-link-body text-white" href="tour.html">
                                 tour<br />
                             </a>
-                            <a className="footer-body text-white" href="demos.html">
+                            <a className="footer-link-body text-white" href="demos.html">
                                 demos<br />
                             </a>
-                            <a className="footer-body text-white" href="shop.html">
+                            <a className="footer-link-body text-white" href="shop.html">
                                 shop<br />
                             </a>
                         </div>
@@ -35,11 +35,11 @@ function Footer() {
                                 </span>
                                 <br />
                             </div>
-                            <a className="footer-body text-white">
+                            <a href="#" className="footer-link-body text-white">
                                 email us
                                 <br />
                             </a>
-                            <a className="footer-body text-white" type="button" data-toggle="modal" data-target="#submitDemo">
+                            <a className="footer-link-body text-white" type="button" data-toggle="modal" data-target="#submitDemo">
                                 submit demo
                                 <br />
                             </a>
@@ -50,15 +50,27 @@ function Footer() {
                                     SOCIAL
                                 </span>
                                 <br />
-                                <div className="row pt-4">
+                                <div className="row mt-4">
                                     <div className="col text-left align-items-center pt-2">
-                                        <i className="fa-brands fa-bandcamp text-white fa-1x pr-0 pb-2"></i>
-                                        <i className="fa-brands fa-soundcloud text-white fa-1x px-1"></i>
-                                        <i className="fa-brands fa-youtube text-white fa-1x pl-1"></i>
+                                        <a href="#" target="_blank">
+                                            <i className="fa-brands fa-bandcamp text-white fa-1x pr-0 pb-3"></i>
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <i className="fa-brands fa-soundcloud text-white fa-1x px-1"></i>
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <i className="fa-brands fa-youtube text-white fa-1x pl-1"></i>
+                                        </a>
                                         <br />
-                                        <i className="fa-brands fa-instagram text-white fa-1x pr-1"></i>
-                                        <i className="fa-brands fa-facebook-square text-white fa-1x px-2"></i>
-                                        <i className="fa-brands fa-twitter text-white fa-1x pl-2"></i>
+                                        <a href="#" target="_blank">
+                                            <i className="fa-brands fa-instagram text-white fa-1x pr-2"></i>
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <i className="fa-brands fa-facebook-square text-white fa-1x px-2 marg-x"></i>
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <i className="fa-brands fa-twitter text-white fa-1x pl-2"></i>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -76,7 +88,7 @@ function Footer() {
                                 <form>
                                     <div className="form-group row">
                                         <div className="col">
-                                            <input type="email" className="form-control rounded-0 p-4" id="email" name="email"
+                                            <input type="email" className="form-control rounded-0 p-2 mb-3" id="email" name="email"
                                                 placeholder="Email" />
                                         </div>
                                     </div>
@@ -100,7 +112,7 @@ function Footer() {
                         <div className="col">
                             <div className="d-flex align-items-center justify-content-center text-white pb-5">
                                 <img src={logo} alt="Billegal Beats" width="25" height="25" />
-                                <span className="footer-body2">© Billegal Beats</span>
+                                <span className="footer-body2 mx-2">© Billegal Beats</span>
                             </div>
                         </div>
                     </div>
@@ -115,18 +127,19 @@ function Footer() {
                             <div className="footer-title text-white pb-4">
                                 <span className="underline">
                                     LINKS
-                                </span><br />
+                                </span>
+                                <br />
                             </div>
-                            <a className="footer-body text-white pt-5" href="releases.html">
+                            <a className="footer-link-body text-white" href="releases.html">
                                 releases<br />
                             </a>
-                            <a className="footer-body text-white" href="tour.html">
+                            <a className="footer-link-body text-white" href="tour.html">
                                 tour<br />
                             </a>
-                            <a className="footer-body text-white" href="demos.html">
+                            <a className="footer-link-body text-white" href="demos.html">
                                 demos<br />
                             </a>
-                            <a className="footer-body text-white" href="shop.html">
+                            <a className="footer-link-body text-white" href="shop.html">
                                 shop<br />
                             </a>
                         </div>
@@ -137,11 +150,11 @@ function Footer() {
                                 </span>
                                 <br />
                             </div>
-                            <a className="footer-body text-white">
+                            <a className="footer-link-body text-white" href="#">
                                 email us
                                 <br />
                             </a>
-                            <a className="footer-body text-white" type="button" data-toggle="modal" data-target="#submitDemo">
+                            <a className="footer-link-body text-white" type="button" data-toggle="modal" data-target="#submitDemo">
                                 submit demo
                                 <br />
                             </a>
@@ -152,15 +165,27 @@ function Footer() {
                                     SOCIAL
                                 </span>
                                 <br />
-                                <div className="row text-center pt-4">
+                                <div className="row text-center mt-4">
                                     <div className="col align-items-center pt-2">
-                                        <i className="fa-brands fa-bandcamp text-white fa-1x pr-0 pb-2"></i>
-                                        <i className="fa-brands fa-soundcloud text-white fa-1x px-1"></i>
-                                        <i className="fa-brands fa-youtube text-white fa-1x pl-1"></i>
+                                        <a href="#" target="_blank">
+                                            <i className="fa-brands fa-bandcamp text-white fa-1x pr-0 pb-3"></i>
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <i className="fa-brands fa-soundcloud text-white fa-1x px-1"></i>
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <i className="fa-brands fa-youtube text-white fa-1x pl-1"></i>
+                                        </a>
                                         <br />
-                                        <i className="fa-brands fa-instagram text-white fa-1x pr-2"></i>
-                                        <i className="fa-brands fa-facebook-square text-white fa-1x px-2"></i>
-                                        <i className="fa-brands fa-twitter text-white fa-1x pl-2"></i>
+                                        <a href="#" target="_blank">
+                                            <i className="fa-brands fa-instagram text-white fa-1x pr-2"></i>
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <i className="fa-brands fa-facebook-square text-white fa-1x px-2"></i>
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <i className="fa-brands fa-twitter text-white fa-1x pl-2"></i>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -180,7 +205,7 @@ function Footer() {
                                     <div className="w-50 d-bock mx-auto d-block">
                                         <div className="form-group row">
                                             <div className="col">
-                                                <input type="email" className="form-control rounded-0 p-4" id="email" name="email"
+                                                <input type="email" className="form-control rounded-0 p-2 mb-3" id="email" name="email"
                                                     placeholder="Email" />
                                             </div>
                                         </div>
@@ -216,7 +241,7 @@ function Footer() {
                                     <div className="w-75 mx-auto d-block">
                                         <div className="form-group row">
                                             <div className="col">
-                                                <input type="email" className="form-control rounded-0 p-4" id="email" name="email"
+                                                <input type="email" className="form-control rounded-0 p-2 mb-3" id="email" name="email"
                                                     placeholder="Email" />
                                             </div>
                                         </div>
@@ -242,7 +267,7 @@ function Footer() {
                         <div className="col">
                             <div className="d-flex align-items-center justify-content-center text-white pb-5">
                                 <img src={logo} alt="Billegal Beats" width="25" height="25" />
-                                <span className="footer-body2">© Billegal Beats</span>
+                                <span className="footer-body2 mx-2">© Billegal Beats</span>
                             </div>
                         </div>
                     </div>

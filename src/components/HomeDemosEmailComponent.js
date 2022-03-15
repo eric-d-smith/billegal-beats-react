@@ -26,7 +26,7 @@ function DemosEmail() {
                             </p>
                             <ul className="navbar-nav text-white align-items-start">
                                 <li>
-                                    <a className="nav-link btn-releases btn bg-black text-white btn-lg btn-block rounded-0 p-3 px-5 mt-2 d-none d-block d-xl-none m-0"
+                                    <a className="nav-link btn-releases btn bg-black text-white btn-lg btn-block rounded-0 p-3 px-5 mt-2 d-block d-xl-none m-0"
                                         role="button" href="">
                                         SUBMIT
                                     </a>
@@ -45,18 +45,18 @@ function DemosEmail() {
                             <form>
                                 <div className="form-group row">
                                     <div className="col">
-                                        <input type="text" className="form-control rounded-0 p-4 my-2" id="name" name="name"
+                                        <input type="text" className="form-control rounded-0 p-3 my-2 mb-3" id="name" name="name"
                                             placeholder="Name" />
                                     </div>
                                 </div>
                                 <div className="form-group row">
                                     <div className="col">
-                                        <input type="email" className="form-control rounded-0 p-4" id="email" name="email"
+                                        <input type="email" className="form-control rounded-0 p-3 mb-2" id="email" name="email"
                                             placeholder="Email" />
                                     </div>
                                 </div>
                                 <div className="form-group row">
-                                    <div className="col bg-signup d-none d-block d-xl-none mt-2">
+                                    <div className="col bg-signup d-block d-xl-none mt-2">
                                         <ul className="navbar-nav mx-auto text-white align-items-center">
                                             <li>
                                                 <a className="nav-link btn-releases bg-releases btn text-white btn-block mx-auto rounded-0 p-3 w-100 m-0"
@@ -149,13 +149,13 @@ function DemosEmail() {
                             <form>
                                 <div className="form-group row">
                                     <div className="col">
-                                        <input type="text" className="form-control rounded-0 p-4 my-2" id="name" name="name"
+                                        <input type="text" className="form-control rounded-0 p-3 my-2 mb-3" id="name" name="name"
                                             placeholder="Name" />
                                     </div>
                                 </div>
                                 <div className="form-group row">
                                     <div className="col">
-                                        <input type="email" className="form-control rounded-0 p-4" id="email" name="email"
+                                        <input type="email" className="form-control rounded-0 p-3 mb-2" id="email" name="email"
                                             placeholder="Email" />
                                     </div>
                                 </div>

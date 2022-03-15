@@ -70,7 +70,7 @@ function Releases() {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col bg-mgray d-none d-block d-sm-none">
+                    <div className="col bg-mgray d-block d-sm-none">
                         <ul className="navbar-nav mx-auto text-white align-items-center">
                             <li>
                                 <a className="nav-link btn-releases btn bg-black text-white btn-lg btn-block mx-auto rounded-0 p-4 px-5"

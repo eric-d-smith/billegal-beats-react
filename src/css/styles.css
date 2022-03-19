@@ -40,6 +40,7 @@ html {
 
 a.EP-hover {
   color: white;
+  text-decoration: none;
 }
 
 a.EP-hover:hover {

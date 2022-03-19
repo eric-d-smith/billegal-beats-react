@@ -8,7 +8,7 @@ function Releases() {
                 <div class="row bg-mgray pt-5">
                     <div class="col-12 col-md-6 col-lg-4 col-xl-3 bg-mgray mx-auto d-block pt-5">
                         <a class="EP-hover" href="bakkar.html">
-                            <img class="img-fluid" src="img/albums/Bakkar-Endless-Beginning-EP-Billegal-Beats.jpeg"
+                            <img class="img-fluid" src="../assets/images/albums/Bakkar-Endless-Beginning-EP-Billegal-Beats.jpeg"
                                 alt="Bakkar - Endless Beginning EP" />
                             <p class="text-center font-weight-bold pt-4 pb-2">
                                 <span class="artist">Bakkar</span><br />

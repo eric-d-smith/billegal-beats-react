@@ -1,17 +1,18 @@
 import React from 'react';
 
-function Album() {
-
+function Album(props) {
     return (
         <React.Fragment>
-            <a className="EP-hover" href="bakkar.html">
-                <img className="img-fluid" src="img/albums/Bakkar-Endless-Beginning-EP-Billegal-Beats.jpeg"
-                    alt="Bakkar - Endless Beginning EP" />
-                <p className="text-center font-weight-bold pt-4 pb-5">
-                    <span className="artist">Bakkar</span><br />
-                    <span className="album font-weight-normal">Endless Beginning EP</span>
-                </p>
-            </a>
+            <div className="col-12 col-md-4 bg-mgray mx-auto d-block">
+                <a className="EP-hover" href="bakkar.html">
+                    <img className="img-fluid" src={props.image}
+                        alt={props.album} />
+                    <p className="text-center font-weight-bold pt-4 pb-5">
+                        <span className="artist">{props.artist}</span><br />
+                        <span className="album font-weight-normal">{props.album}</span>
+                    </p>
+                </a>
+            </div>
         </React.Fragment >
     )
 }

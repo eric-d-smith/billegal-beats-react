@@ -115,7 +115,7 @@ function DemosEmail() {
                             </ul>
 
                             {/* <!-- large modal --> */}
-                            <div className="modal fade" id="submitDemo" tabindex="-1" role="dialog" aria-labelledby="basicModal"
+                            <div className="modal fade" id="submitDemo" tabIndex="-1" role="dialog" aria-labelledby="basicModal"
                                 aria-hidden="true">
                                 <div className="modal-dialog modal-dialog-centered modal-lg">
                                     <div className="modal-content rounded-0">

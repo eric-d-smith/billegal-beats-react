@@ -358,6 +358,28 @@ li > a:hover:after {
   transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
+.signUpHover > a:after {
+  content: "";
+  display: block;
+  height: 1.5px;
+  background: #fff;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.signUpHover > a:hover:after {
+  -webkit-transform: scaleX(.36);
+          transform: scaleX(.36);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
 .active {
   color: #fff !important;
 }

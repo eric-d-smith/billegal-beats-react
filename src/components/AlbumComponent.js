@@ -7,7 +7,7 @@ function Album(props) {
                 <a className="EP-hover" href="bakkar.html">
                     <img className="img-fluid" src={props.image}
                         alt={props.album} />
-                    <p className="text-center font-weight-bold pt-4 pb-5">
+                    <p className="text-center font-weight-bold pt-4">
                         <span className="artist">{props.artist}</span><br />
                         <span className="album font-weight-normal">{props.album}</span>
                     </p>

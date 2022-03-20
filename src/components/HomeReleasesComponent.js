@@ -12,7 +12,7 @@ function Releases() {
     return (
         <React.Fragment>
             <div className="container-fluid p-5 bg-mgray" id="releases">
-                <div className="row bg-mgray">
+                <div className="row bg-mgray pb-5">
                     <Album
                         id="0"
                         album="Endless Beginning EP"
@@ -53,7 +53,6 @@ function Releases() {
                     />
                 </div>
                 <div className="row">
-
                     <div className="col bg-mgray d-block d-sm-none">
                         <ul className="navbar-nav mx-auto text-white align-items-center">
                             <li>

@@ -372,8 +372,8 @@ li > a:hover:after {
 }
 
 .signUpHover > a:hover:after {
-  -webkit-transform: scaleX(.36);
-          transform: scaleX(.36);
+  -webkit-transform: scaleX(.26);
+          transform: scaleX(.26);
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;

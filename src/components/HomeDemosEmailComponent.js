@@ -56,23 +56,10 @@ function DemosEmail() {
                                     </div>
                                 </div>
                                 <div className="form-group row">
-                                    <div className="col bg-signup bg-signUpHover d-block d-xl-none mt-2">
-                                        <ul className="navbar-nav mx-auto text-white align-items-center">
-                                            <li>
-                                                <a className="nav-link btn-releases bg-releases btn text-white btn-block mx-auto rounded-0 p-3 w-100 m-0"
-                                                    role="button" href="">
-                                                    SIGN UP
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div className="form-group row">
                                     <div className="col d-block d-xl-none mt-2">
                                         <ul className="navbar-nav text-white align-items-center">
-                                            <li className="signUpHover w-100">
-                                                <a className="nav-link btn bg-releases bg-black btn-releases bg-releases text-white btn-block rounded-0 p-3 px-5 mt-2 d-block d-xl-none m-0"
+                                            <li className="signUpHover w-100 bg-releases">
+                                                <a className="nav-link btn btn-releases text-white btn-block rounded-0 p-3 d-block d-xl-none m-0"
                                                     role="button" href="">
                                                     SIGN UP
                                                 </a>
@@ -80,7 +67,6 @@ function DemosEmail() {
                                         </ul>
                                     </div>
                                 </div>
-
                                 <div className="row">
                                     <div className="col d-flex justify-content-around align-items-center pt-3">
                                         <i className="fa-brands fa-bandcamp text-white fa-2x pr-1"></i>
@@ -178,6 +164,14 @@ function DemosEmail() {
                                         <ul className="navbar-nav mx-auto text-white align-items-center">
                                             <li>
                                                 <a className="nav-link btn-releases bg-releases btn text-white btn-block mx-auto rounded-0 p-3 w-100 m-0"
+                                                    role="button" href="">
+                                                    SIGN UP
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul className="navbar-nav text-white align-items-center">
+                                            <li className="signUpHover w-100 bg-releases">
+                                                <a className="nav-link btn btn-releases text-white btn-block rounded-0 p-3 d-none d-xl-block m-0"
                                                     role="button" href="">
                                                     SIGN UP
                                                 </a>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import { default as logo } from '../assets/images/logo.svg';
 
 function Header() {
@@ -6,9 +7,9 @@ function Header() {
     return (
         <React.Fragment>
             <nav className="navbar navbar-expand-sm navbar-dark bg-black sticky-top">
-                <a className="navbar-brand d-sm-none py-2 px-3" href="#">
+                <Link to="/" className="navbar-brand d-sm-none py-2 px-3">
                     <img src={logo} width="40" heigh="40" />
-                </a>
+                </Link>
                 <button className="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#billegalNavbar">
                     <div className="hamburger" id="hamburger-2">
                         <span className="line"></span>
@@ -22,11 +23,11 @@ function Header() {
                             <a className="nav-link" href="#releases">RELEASES</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="tour.html">TOUR</a>
+                            <Link to="tour" className="nav-link" href="tour.html">TOUR</Link>
                         </li>
-                        <a href="#" className="px-3 py-2 d-none d-sm-block">
+                        <Link to="/" className="px-3 py-2 d-none d-sm-block">
                             <img src={logo} width="50" height="50" alt="Billegal Beats" />
-                        </a>
+                        </Link>
                         <li className="nav-item">
                             <a className="nav-link d-none d-xl-block" href="#demosXL">DEMOS</a>
                         </li>
@@ -34,10 +35,10 @@ function Header() {
                             <a className="nav-link d-block d-xl-none" href="#demos">DEMOS</a>
                         </li>
                         <li className="nav-item d-none d-sm-block pad-right">
-                            <a className="nav-link" href="shop.html">SHOP</a>
+                            <Link to="shop" className="nav-link" href="shop.html">SHOP</Link>
                         </li>
                         <li className="nav-item d-block d-sm-none">
-                            <a className="nav-link" href="shop.html">SHOP</a>
+                            <Link to="shop" className="nav-link" href="shop.html">SHOP</Link>
                         </li>
                     </ul>
                 </div>

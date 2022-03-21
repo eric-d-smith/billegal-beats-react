@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { default as logo } from '../assets/images/logo.svg';
 
 function Footer() {
@@ -6,7 +7,7 @@ function Footer() {
     return (
         <React.Fragment>
             {/* <!-- Site Footer XL screens --> */}
-            <footer className="site-footer bg-black text-white d-none d-xl-block">
+            <footer className="site-footer bg-black text-white d-none d-xl-block sticky-bottom">
                 <div className="container pt-3">
                     <div className="row d-flex justify-content-center py-5">
                         <div className="col-3">
@@ -15,18 +16,18 @@ function Footer() {
                                     LINKS
                                 </span><br />
                             </div>
-                            <a className="footer-link-body text-white mt-5" href="releases.html">
+                            <Link to="releases" className="footer-link-body text-white mt-5" href="releases.html">
                                 releases<br />
-                            </a>
-                            <a className="footer-link-body text-white" href="tour.html">
+                            </Link>
+                            <Link to="tour" className="footer-link-body text-white" href="tour.html">
                                 tour<br />
-                            </a>
-                            <a className="footer-link-body text-white" href="demos.html">
+                            </Link>
+                            <Link to="demos" className="footer-link-body text-white" href="demos.html">
                                 demos<br />
-                            </a>
-                            <a className="footer-link-body text-white" href="shop.html">
+                            </Link>
+                            <Link to="shop" className="footer-link-body text-white" href="shop.html">
                                 shop<br />
-                            </a>
+                            </Link>
                         </div>
                         <div className="col-3">
                             <div className="footer-title text-white pb-4">
@@ -130,18 +131,18 @@ function Footer() {
                                 </span>
                                 <br />
                             </div>
-                            <a className="footer-link-body text-white" href="releases.html">
+                            <Link to="releases" className="footer-link-body text-white">
                                 releases<br />
-                            </a>
-                            <a className="footer-link-body text-white" href="tour.html">
+                            </Link>
+                            <Link to ="tour" className="footer-link-body text-white">
                                 tour<br />
-                            </a>
-                            <a className="footer-link-body text-white" href="demos.html">
+                            </Link>
+                            <Link to="demos" className="footer-link-body text-white">
                                 demos<br />
-                            </a>
-                            <a className="footer-link-body text-white" href="shop.html">
+                            </Link>
+                            <Link to="shop" className="footer-link-body text-white">
                                 shop<br />
-                            </a>
+                            </Link>
                         </div>
                         <div className="col-4">
                             <div className="footer-title text-white pb-4">

@@ -4,7 +4,7 @@ function Releases() {
 
     return (
         <React.Fragment>
-            <div class="container-fluid p-5 bg-mgray" id="releases">
+            <div class="container-fluid p-5 bg-mgray">
                 <div class="row bg-mgray pt-5">
                     <div class="col-12 col-md-6 col-lg-4 col-xl-3 bg-mgray mx-auto d-block pt-5">
                         <a class="EP-hover" href="bakkar.html">

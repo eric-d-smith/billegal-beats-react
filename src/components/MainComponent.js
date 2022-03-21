@@ -1,7 +1,5 @@
 import React from 'react';
-import Header from './HeaderComponent';
 import Hero from './HeroComponent';
-import Footer from './FooterComponent';
 import OurMission from './OurMissionComponent';
 import HomeReleases from './HomeReleasesComponent';
 import DemosEmail from './HomeDemosEmailComponent';
@@ -22,12 +20,10 @@ import DemosEmail from './HomeDemosEmailComponent';
 function Main() {
     return (
         <React.Fragment>
-            <Header />
             <Hero />
             <OurMission />
             <HomeReleases />
             <DemosEmail />
-            <Footer />
         </React.Fragment>
     );
 };

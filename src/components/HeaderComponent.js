@@ -7,19 +7,19 @@ function Header() {
     const links = [
         {
             link: "/releases",
-            name: "Releases"
+            name: "RELEASES"
         },
         {
             link: "/tour",
-            name: "Tour"
-        },
-        {
-            link: "/shop",
-            name: "Shop"
+            name: "TOUR"
         },
         {
             link: "/demos",
-            name: "Demos"
+            name: "DEMOS"
+        },
+        {
+            link: "/shop",
+            name: "SHOP"
         },
     ]
 
@@ -44,7 +44,7 @@ function Header() {
                             return (
                                 <React.Fragment>
                                     <div>
-                                        <li className="nav-item">
+                                        <li>
                                             <Link to={item.link} className="nav-link">
                                                 {item.name}
                                             </Link>
@@ -54,7 +54,7 @@ function Header() {
                                         {
                                             index === 1 && (
                                                 <Link to="/">
-                                                    <img src={logo} className="px-2 py-2 d-none d-sm-block" width="80" height="80" alt="Billegal Beats" />
+                                                    <img src={logo} className="px-3 d-none d-sm-block" width="82" height="82" alt="Billegal Beats" />
                                                 </Link>
                                             )
                                         }

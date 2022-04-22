@@ -3,7 +3,7 @@ import Hero from './HeroComponent';
 import OurMission from './OurMissionComponent';
 import HomeReleases from './HomeReleasesComponent';
 import DemosEmail from './HomeDemosEmailComponent';
-import Header from './HeaderComponent'
+import HomeHeader from './HomeHeaderComponent'
 
 // import Releases from './ReleasesComponent';
 // import Tour from './TourComponent';
@@ -20,28 +20,9 @@ import Header from './HeaderComponent'
 
 function Main() {
 
-  const links = [
-    {
-      link: "/#releases",
-      name: "Releases"
-    },
-    {
-      link: "/tour",
-      name: "Tour"
-    },
-    {
-      link: "/shop",
-      name: "Shop"
-    },
-    {
-      link: "/#demos",
-      name: "Demo"
-    },
-
-  ]
   return (
     <React.Fragment>
-      <Header links={links} />
+      <HomeHeader />
       <Hero />
       <OurMission />
       <HomeReleases />

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 import Album from './AlbumComponent';
 import endlessBeginning from '../assets/images/albums/Bakkar-Endless-Beginning-EP-Billegal-Beats.jpeg';
 import everythingIsWrong from '../assets/images/albums/ZZY-Everything-Is-Wrong.jpeg';
@@ -57,7 +57,7 @@ function Releases() {
                     <div className="col bg-mgray d-block d-sm-none">
                         <ul className="navbar-nav mx-auto text-white align-items-center">
                             <li>
-                                <Link to="releases" className="nav-link btn-releases btn bg-black text-white btn-lg btn-block mx-auto rounded-0 p-4 px-5"
+                                <Link to="releases#releases-top" className="nav-link btn-releases btn bg-black text-white btn-lg btn-block mx-auto rounded-0 p-4 px-5"
                                     role="button" href="releases.html">
                                     MORE RELEASES
                                 </Link>
@@ -67,7 +67,7 @@ function Releases() {
                     <div className="col bg-mgray d-none d-sm-block d-xl-none">
                         <ul className="navbar-nav mx-auto text-white align-items-center">
                             <li>
-                                <Link to="releases" className="nav-link btn-releases btn bg-black text-white btn-lg btn-block mx-auto rounded-0 p-4 px-5"
+                                <Link to="releases#releases-top" className="nav-link btn-releases btn bg-black text-white btn-lg btn-block mx-auto rounded-0 p-4 px-5"
                                     role="button" href="releases.html">
                                     MORE RELEASES
                                 </Link>
@@ -77,7 +77,7 @@ function Releases() {
                     <div className="col bg-mgray d-none d-xl-block">
                         <ul className="navbar-nav mx-auto text-white align-items-center">
                             <li>
-                                <Link to="releases" className="nav-link btn-releases btn bg-black text-white btn-lg btn-block mx-auto rounded-0 p-4 px-5"
+                                <Link to="releases#releases-top" className="nav-link btn-releases btn bg-black text-white btn-lg btn-block mx-auto rounded-0 p-4 px-5"
                                     role="button" href="releases.html">
                                     MORE RELEASES
                                 </Link>

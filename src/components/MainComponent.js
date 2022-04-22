@@ -3,6 +3,7 @@ import Hero from './HeroComponent';
 import OurMission from './OurMissionComponent';
 import HomeReleases from './HomeReleasesComponent';
 import DemosEmail from './HomeDemosEmailComponent';
+import Header from './HeaderComponent'
 
 // import Releases from './ReleasesComponent';
 // import Tour from './TourComponent';
@@ -18,14 +19,35 @@ import DemosEmail from './HomeDemosEmailComponent';
 // import logo from '../assets/images/logo.svg';
 
 function Main() {
-    return (
-        <React.Fragment>
-            <Hero />
-            <OurMission />
-            <HomeReleases />
-            <DemosEmail />
-        </React.Fragment>
-    );
+
+  const links = [
+    {
+      link: "/#releases",
+      name: "Releases"
+    },
+    {
+      link: "/tour",
+      name: "Tour"
+    },
+    {
+      link: "/shop",
+      name: "Shop"
+    },
+    {
+      link: "/#demos",
+      name: "Demo"
+    },
+
+  ]
+  return (
+    <React.Fragment>
+      <Header links={links} />
+      <Hero />
+      <OurMission />
+      <HomeReleases />
+      <DemosEmail />
+    </React.Fragment>
+  );
 };
 
 export default Main;
@@ -46,3 +68,4 @@ export default Main;
             //     <Redirect to='/home' />
             // </Switch>
             // <Footer />
+

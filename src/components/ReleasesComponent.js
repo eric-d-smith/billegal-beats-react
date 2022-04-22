@@ -1,10 +1,14 @@
 import React from 'react';
+import Header from './HeaderComponent'
 
-function Releases() {
+function Releases(props) {
+
+    const links = props
 
     return (
         <React.Fragment>
-            <div class="container-fluid p-5 bg-mgray">
+            <Header links={links} />
+            <div class="container-fluid p-5 bg-mgray" id="releases-top">
                 <div class="row bg-mgray pt-5">
                     <div class="col-12 col-md-6 col-lg-4 col-xl-3 bg-mgray mx-auto d-block pt-5">
                         <a class="EP-hover" href="bakkar.html">
